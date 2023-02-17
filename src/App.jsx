@@ -17,7 +17,7 @@ const App = () =>{
               </form>
             </header>
 
-            <main className="cotainer mx-auto px-4 mt-8">
+            <main className="container mx-auto px-4 mt-8">
               <div className="bg-white rounded-md [&>article]:p-4">
               <article className="flex gap-4 py-4 border-b border-b-gray-400">
                  <button className="rounded-full p-3 border-2 w-3 h-3 inline-block flex-none"></button>
