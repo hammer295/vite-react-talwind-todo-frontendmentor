@@ -24,11 +24,8 @@ const Header = () => {
       }
     },[darkMode]); //entre los corchetes le indicamos a que poner atencion, si estuviera vacio se ejecutaria una sola vez
 
-    const handleClickToggleTheme = () =>{
-    }
-
     return(
-        <header className="container mx-auto px-4 pt-8">
+        <header className="container mx-auto px-4 pt-8 md:max-w-xl">
               <div className="flex justify-between">
                 <h1 className="uppercase text-white text-3xl font-semibold tracking-[0.3em]">TODO</h1>
                 <button onClick={() => setDarkMode(!darkMode)}>
