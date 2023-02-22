@@ -63,7 +63,9 @@ const App = () =>{
   }
 
   return (
-          <div className="bg-[url('./assets/images/bg-mobile-light.jpg')] bg-no-repeat bg-contain bg-gray-300 min-h-screen">
+          <div className="bg-[url('./assets/images/bg-mobile-light.jpg')] bg-no-repeat bg-contain 
+                        bg-gray-300 min-h-screen dark:bg-gray-900 dark:bg-[url('./assets/images/bg-mobile-dark.jpg')]
+                        transition-all duration-1000">
              <Header />
 
             <main className="container mx-auto px-4 mt-8">
@@ -76,7 +78,7 @@ const App = () =>{
               <TodoFilter changeFilter={changeFilter} filter={filter}/>
             </main>
 
-            <footer className="text-center py-4 px-4">Grag and Drop to reorder list</footer>
+            <footer className="text-center py-4 px-4 dark:text-gray-400">Grag and Drop to reorder list</footer>
            
           </div>
          )
